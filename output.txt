@@ -1,0 +1,4 @@
+linux_text.sh
+output.txt
+test1
+test2
