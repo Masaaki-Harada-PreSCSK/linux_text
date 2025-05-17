@@ -62,3 +62,10 @@ read responce
 if  [ $responce = 'yes' ]; then echo "You are ready."
 else echo "You are not ready."
 fi
+filename="output.txt"
+if [ -f "$filename" ]; then
+  echo "file $filename contents"
+  cat "$filename"
+else
+  echo "error "$filename" not found"
+fi
