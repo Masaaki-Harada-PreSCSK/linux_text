@@ -1,6 +1,7 @@
 #!/bin/bash
 # Comment
 clear
+echo "*** linux_text.sh start ***"
 #
 echo "*** ls ***";ls;echo
 #
@@ -47,13 +48,13 @@ echo "*** kernel version ***"
 uname -a
 echo
 # do loop , execute batch file , stdin/stdout , pause , message box
-echo "*** . test1.sh ***";. test1/test1.sh;echo
-echo "*** . test2.sh ***";. test2/test2.sh;echo
-echo "*** source test1.sh ***";source test1/test1.sh;echo
-echo "*** source test2.sh ***";source test2/test2.sh;echo
-echo "*** /bin/bash test1.sh ***";/bin/bash test1/test1.sh;echo
-echo "*** /bin/bash test2.sh ***";/bin/bash test2/test2.sh;echo
-echo "*** source file_test.sh ***";source test3/file_test.sh;echo
+echo "*** . test1.sh ***";               . test1/test1.sh;echo
+echo "*** . test2.sh ***";               . test2/test2.sh;echo
+echo "*** source test1.sh ***";          source test1/test1.sh;echo
+echo "*** source test2.sh ***";          source test2/test2.sh;echo
+echo "*** /bin/bash test1.sh ***";       /bin/bash test1/test1.sh;echo
+echo "*** /bin/bash test2.sh ***";       /bin/bash test2/test2.sh;echo
+echo "*** source test3/file_test.sh ***";source test3/file_test.sh;echo
 echo "*** message in ***"
 echo "### please input your name ###"
 read name
