@@ -1,0 +1,7 @@
+
+#!/bin/bash
+
+# クリップボードからテキストを取得
+clipboard_text=$(xclip -selection clipboard -o)
+
+echo "クリップボードの内容: $clipboard_text"
